@@ -1,0 +1,19 @@
+.input{
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 10px;
+    border-style: none;
+}
+
+.button{
+    padding: 5px;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+    font-family: rowdies;
+    background-color: #B9D2D2;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
+}
+.button:hover{
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.6);
+}

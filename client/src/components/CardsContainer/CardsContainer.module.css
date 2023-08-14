@@ -1,0 +1,40 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(151,206,76, 0);
+    height: auto;
+    min-height: 650px;
+    width: 60%;
+    margin: 40px auto;
+}
+
+.contPaged{
+    background-color: rgba(52, 52, 52, 0.8);
+    border-radius: 10px;
+    font-family: rowdies;
+    width: 300px;
+    margin: auto;
+}
+.labelPage{
+    color: #B9D2D2;
+    display: block;
+    font-size: 30px;  
+}
+.buttons{
+    font-family: rowdies;
+    background-color: #B9D2D2;;
+    cursor: pointer;
+    width: 80px;
+    padding: 5px;
+    border-radius: 5px;
+    border-style: none;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
+}
+
+.buttons:hover{
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.6);
+}

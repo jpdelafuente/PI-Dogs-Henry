@@ -1,0 +1,30 @@
+.title {
+    color: #61876E;
+    font-family: rowdies;
+    font-size: 5rem;
+    margin: 20px auto;
+    text-shadow: 3px 3px rgb(0, 0, 0);
+    width: 80%;
+  }
+
+.button {
+    background-color: #61876E;
+    color: #fefefe;
+    padding: .3em;
+    font-family: rowdies;
+    font-size: 4rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
+    transition:  0.3s ease;
+  }
+  .button:hover {
+    /* background-color: #3C6255; */
+    text-shadow: 4px 4px #343434;
+    /* transform: scale(1.05); */
+  }
+
+  .container{
+    padding-top: 250px;
+  }
